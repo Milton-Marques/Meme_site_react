@@ -1,0 +1,40 @@
+.meme-card {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  min-height: 100px;
+  margin: 10px auto;
+  border: royalblue 2px solid;
+  -webkit-box-shadow: 9px 10px 31px -4px rgba(0,0,0,0.89); 
+  box-shadow: 9px 10px 31px -4px rgba(0,0,0,0.89);
+  font-family: sans-serif;
+  
+}
+
+.meme-card-content {
+  width: 90%;
+  height: 90%;
+  margin: 0 auto;
+}
+
+.meme-card-content img {
+  width: 100%;
+
+}
+
+.meme-card-footer {
+  background-color: tomato;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 20px;
+}
+
+.meme-card-title {
+  font-family: sans-serif;
+  color: rgb(36, 36, 117);
+  font-size: 40px;
+  padding-left: 20px;
+}

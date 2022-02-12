@@ -1,0 +1,54 @@
+.header {
+  background-color: #e4d720;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: rgb(25, 16, 150) 6px dotted;
+  padding: 0 20px;
+}
+
+#headerPage{
+  font-size: 60px;
+}
+
+.header-buttons .header-button{
+  background-color: rgb(25, 16, 150);
+  padding: 5px 9px;
+  margin-left: 3px;
+  right: 10px;
+  display: inline;
+  color: white;
+  
+}
+
+
+.header-buttons {
+ right: 10px;
+ align-items: flex-end;
+ display: flex;
+ align-items: center;
+ gap: 10px;
+}
+
+.profile-image {
+  height: 70px;
+  border-radius: 50%;
+}
+.header-profile-container{
+  display: flex;
+  align-items: center;
+}
+
+.header-profile-container div{
+font-style: italic;
+font-size: 70px;
+}
+
+
+
+/* 
+display: flex
+flex-direction
+justify-content
+alingn-items
+ */

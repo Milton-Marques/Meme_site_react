@@ -1,0 +1,31 @@
+.main {
+  background-color: rgb(180, 170, 25);
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.ad {
+  background-color: rgb(25, 16, 150);
+  border: white 5px solid;
+  border-radius: 10%;
+  height: 600px;
+  width: 400px;
+  margin-right: 10px;
+  float: right;
+  display: flex;
+  margin-bottom: 60px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+  padding-top: 10px;
+}
+
+.memes-cards-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  gap: 20px;
+}
