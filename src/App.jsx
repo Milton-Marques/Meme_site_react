@@ -1,11 +1,11 @@
 import './App.css'
-import Home from "./pages/Home/Home"
+import Router from "./pages/Router.jsx"
 function App() {
 
 
   return (
     <div className="App">
-      <Home />
+      <Router />
     </div>
   )
 }
