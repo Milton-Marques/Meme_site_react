@@ -12,7 +12,7 @@ const MemeCard = ({
       
       <h2 className='meme-card-title'>{title}</h2>
       <div className='meme-card-content'>
-        <img src={img} alt="" />
+        <img src={img} alt="imagem" />
       </div>
       <div className='meme-card-footer'>
         <h3>{autor}</h3>

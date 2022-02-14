@@ -1,0 +1,28 @@
+{
+  "memes": [
+    {
+      "id": 1,
+      "titulo": "Srincrivel",
+      "imagem": "https://img.ifunny.co/images/e4e40c9c8c338cb93c0b7589130c65de84f9c9f7c7f04f9e0006e989f8e4f035_1.jpg",
+      "autor": "Milton Marques"
+    },
+    {
+      "id": 2,
+      "titulo": "stonks",
+      "imagem": "https://xforgeassets002.xboxlive.com/pf-title-b63a0803d3653643-20ca2/ad40abf4-6df2-4c64-b080-c4d0b804c409/st_Thumbnail_0.jpg",
+      "autor": "Bill Gates"
+    },
+    {
+      "id": 3,
+      "titulo": "stonks",
+      "imagem": "https://xforgeassets002.xboxlive.com/pf-title-b63a0803d3653643-20ca2/ad40abf4-6df2-4c64-b080-c4d0b804c409/st_Thumbnail_0.jpg",
+      "autor": "Bill Gates"
+    },
+    {
+      "id": "4",
+      "titulo": "brbrbr",
+      "imagem": "",
+      "autor": "Elon Musk"
+    }
+  ]
+}
