@@ -20,7 +20,7 @@ const Header = () => {
         <Link to={"/NewMeme"}>
           <button className='header-buttons header-button'>POSTE SEU MEME</button>
         </Link>
-        <Link to={"/NewMeme"}>
+        <Link to={"/Milton"}>
         <button className='header-buttons header-button'>QUEM É MILTON?</button>
         </Link>
         <Link to={"/NewMeme"}>

@@ -1,0 +1,11 @@
+.site-info {
+  display: flex;
+  flex-direction: column;
+  max-width: 60%;
+  margin: 0 auto;
+  background-color: rgb(111, 111, 209);
+  padding: 40px;
+  border-radius: 20px;
+  gap: 10px;
+  font-size: 20px;
+}

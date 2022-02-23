@@ -1,12 +1,12 @@
 .header {
-  background-color: #e4d720;
+  background: linear-gradient(to right, #e6d712, #f5ed85 );
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: rgb(25, 16, 150) 6px dotted;
   padding: 0 20px;
 }
-
+/* #e4d720 */
 #headerPage{
   font-size: 60px;
 }
