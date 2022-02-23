@@ -38,7 +38,7 @@ console.log(memeList)
 
 
       <div className='ad'>
-        <Propaganda img='https://images.uncyc.org/pt/e/e7/Tadelinha.gif'/>
+        <Propaganda img='https://www.ahnegao.com.br/wp-content/uploads/2021/12/cropped-logo-466x155.png'/>
         <Propaganda img='https://images.uncyc.org/pt/e/e7/Tadelinha.gif'/>
         <Propaganda img='https://tm.ibxk.com.br/2019/01/15/15160827013207.jpg?ims=1200x675'/>
 

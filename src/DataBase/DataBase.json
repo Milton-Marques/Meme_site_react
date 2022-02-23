@@ -2,7 +2,7 @@
   "memes": [
     {
       "id": 1,
-      "titulo": "Srincrivel",
+      "titulo": "Sr incrivel",
       "imagem": "https://img.ifunny.co/images/e4e40c9c8c338cb93c0b7589130c65de84f9c9f7c7f04f9e0006e989f8e4f035_1.jpg",
       "autor": "Milton Marques"
     },
@@ -14,15 +14,16 @@
     },
     {
       "id": 3,
-      "titulo": "stonks",
-      "imagem": "https://xforgeassets002.xboxlive.com/pf-title-b63a0803d3653643-20ca2/ad40abf4-6df2-4c64-b080-c4d0b804c409/st_Thumbnail_0.jpg",
-      "autor": "Bill Gates"
+      "titulo": "Maxis",
+      "imagem": "https://cdn.dol.com.br/img/inline/650000/02_00657033_0_.jpg?xid=1539816",
+      "autor": "Steve Jobs"
     },
     {
-      "id": "4",
-      "titulo": "brbrbr",
-      "imagem": "",
+      "id": 4,
+      "titulo": "pspspsps",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrrc56ULUFAYoRAFOpw0Hdpo5_XwGY5orPEg&usqp=CAU",
       "autor": "Elon Musk"
     }
+    
   ]
 }

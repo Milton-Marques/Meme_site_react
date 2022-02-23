@@ -7,15 +7,34 @@ const NewMeme = () => {
 
   const [form, setForm] = useState({
 
-    id: 0,
     titulo: "",
     imagem: "",
     autor: ""
 
   })
 
+  const enviar = async (e) => {
+    
+    let dbLink = "http://localhost:3001/memes"
+    let params = {
+      method: "POST",
+      headers: {
+        'accept': 'application/json',
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(form),
+    }
+    await fetch(dbLink, params)
+      .then(response => {
+        console.log(response)
+      })
+  }
 
+  const onChangeForm = (element) => {
+    const { name, value} = element.target;
+    setForm({ ...form, [name]:value })
 
+  }
 
   return (
     <div>
@@ -23,18 +42,18 @@ const NewMeme = () => {
       <div>
         <h1>Poste  seu MEME</h1>
 
-        <form className="form-container" onSubmit={() => console.log("hello world")}>
+        <form className="form-container" onSubmit={(e) => enviar(e)}>
           <div>
             <label htmlFor="titulo">isira o titulo do meme</label>
-            <input type="text" id="titulo" />
+            <input onChange={(element) => onChangeForm(element)} name="titulo" type="text" id="titulo" />
           </div>
           <div>
             <label htmlFor="link">insira o link do meme</label>
-            <input type="text" id="link" />
+            <input onChange={(element) => onChangeForm(element)} name="imagem" type="text" id="link" />
           </div>
           <div>
             <label htmlFor="autor">insira seu nome</label>
-            <input type="text" id="autor" />
+            <input onChange={(element) => onChangeForm(element)} name="autor" type="text" id="autor" />
           </div>
           <button type='submit'>submit</button>
 

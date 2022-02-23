@@ -7,5 +7,32 @@
   display: flex;
   align-items: baseline;
   border-top: white 4px solid;
+ 
+
+
+}
+
+.footer {
+  display: flex;
+  align-items:  center;
+  flex-direction: column;
+  justify-content: center;
+  color: aliceblue;
+
+}
+
+.footer div{
+
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  
+
+}
+
+.footer div p{
+
+margin: 0;
 
 }
