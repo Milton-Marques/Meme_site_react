@@ -15,7 +15,7 @@ const NewMeme = () => {
 
   const enviar = async (e) => {
     
-    let dbLink = "https://meme-site-react.vercel.app/api"
+    let dbLink = "https://miltonmemesite.herokuapp.com/api/memes"
     let params = {
       method: "POST",
       headers: {

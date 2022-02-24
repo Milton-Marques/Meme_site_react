@@ -18,7 +18,7 @@ let getMemes = async () => {
   let params = {
     method: "GET"
   }
-  let dbLink = "http://localhost:3001/memes"
+  let dbLink = "https://miltonmemesite.herokuapp.com/api/memes"
   let list = await fetch(dbLink, params)
   .then((response) => response.json())
   .then((response) => setMemeList(response))
