@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
 import "./NewMeme.css"
-import {useHistory} from "react-router-dom"
+import {useNavigate} from "react-router-dom"
 const NewMeme = () => {
 
   const [form, setForm] = useState({
@@ -12,9 +12,9 @@ const NewMeme = () => {
     autor: ""
 
   })
-
+  const navigateTo = useNavigate();
   const enviar = async (e) => {
-    let history = useHistory();
+    e.preventDefault();
     let dbLink = "https://miltonmemesite.herokuapp.com/api/memes"
     let params = {
       method: "POST",
@@ -27,9 +27,9 @@ const NewMeme = () => {
     await fetch(dbLink, params)
       .then(response => {
         console.log(response)
+        navigateTo("/");
       })
-      history.push("/")
-  }
+    }
 
   const onChangeForm = (element) => {
     const { name, value} = element.target;
