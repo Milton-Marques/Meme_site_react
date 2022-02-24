@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
 import "./NewMeme.css"
-
+import {useHistory} from "react-router-dom"
 const NewMeme = () => {
 
   const [form, setForm] = useState({
@@ -14,7 +14,7 @@ const NewMeme = () => {
   })
 
   const enviar = async (e) => {
-    
+    let history = useHistory();
     let dbLink = "https://miltonmemesite.herokuapp.com/api/memes"
     let params = {
       method: "POST",
@@ -28,6 +28,7 @@ const NewMeme = () => {
       .then(response => {
         console.log(response)
       })
+      history.push("/")
   }
 
   const onChangeForm = (element) => {
