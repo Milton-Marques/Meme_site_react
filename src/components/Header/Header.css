@@ -44,6 +44,14 @@ font-style: italic;
 font-size: 70px;
 }
 
+@media (max-width: 960px){
+  .header-profile-container div {
+    font-size: 60px;
+  }
+  .header {
+    flex-direction: column;
+  }
+}
 
 
 /* 

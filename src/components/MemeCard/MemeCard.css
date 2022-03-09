@@ -38,3 +38,9 @@
   font-size: 40px;
   padding-left: 20px;
 }
+
+@media (max-width: 960px){
+  .meme-card {
+    width: 90%;
+  }
+}
