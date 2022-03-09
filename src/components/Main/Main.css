@@ -2,7 +2,6 @@
   background-color: rgb(180, 170, 25);
   display: flex;
   justify-content: space-between;
-  
 }
 
 .ad {
@@ -28,4 +27,10 @@
   align-items: center;
   margin: 0 auto;
   gap: 20px;
+}
+
+@media (max-width: 960px) {
+  .ad {
+    display: none;
+  }
 }

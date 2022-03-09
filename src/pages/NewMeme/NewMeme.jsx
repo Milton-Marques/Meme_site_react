@@ -15,6 +15,28 @@ const NewMeme = () => {
   const navigateTo = useNavigate();
   const enviar = async (e) => {
     e.preventDefault();
+
+    // VERIFICAÇÔES
+    
+    if (form.autor === ""){
+      return alert("você preencher o nome")
+    }
+    if (form.imagem === ""){
+      return alert("você preencher o link")
+    }
+    if (form.titulo === ""){
+      return alert("você preencher o titulo")
+    }
+    if (form.imagem.includes('www.google.com')){
+      return alert("link invalido")
+    }
+    if (form.imagem.includes('www.facebook.com')){
+      return alert("link invalido")
+    }
+    
+
+    // SE TUDO ESTIVER OK
+
     let dbLink = "https://miltonmemesite.herokuapp.com/api/memes"
     let params = {
       method: "POST",
