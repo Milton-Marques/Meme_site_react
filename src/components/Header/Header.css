@@ -46,7 +46,7 @@ font-size: 70px;
 
 @media (max-width: 960px){
   .header-profile-container div {
-    font-size: 60px;
+    font-size: 40px;
   }
   .header {
     flex-direction: column;
